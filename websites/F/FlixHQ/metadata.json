@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.14",
+  "apiVersion": 1,
+  "author": {
+    "id": "936579169842786325",
+    "name": "hahoos"
+  },
+  "service": "FlixHQ",
+  "description": {
+    "en": "TODO"
+  },
+  "url": "flixhq.to",
+  "version": "1.0.0",
+  "logo": "https://cdn.rcd.gg/PreMiD/websites/S/Sflix/assets/logo.png",
+  "thumbnail": "https://cdn.rcd.gg/PreMiD/websites/S/Sflix/assets/logo.png",
+  "color": "#000000",
+  "category": "videos",
+  "tags": [
+    "movies",
+    "shows",
+    "media",
+    "video"
+  ],
+  "iframe": true,
+  "iFrameRegExp": "videostr.net",
+  "settings": [
+    {
+      "id": "privacy",
+      "title": "Privacy Mode",
+      "description": "test",
+      "icon": "fad fa-user-secret",
+      "value": false
+    },
+    {
+      "id": "thumbnail",
+      "title": "Show Thumbnail",
+      "description": "test",
+      "icon": "fad fa-images",
+      "value": true
+    },
+    {
+      "id": "browsingStatus",
+      "title": "Show Browsing Status",
+      "icon": "fad fa-book-reader",
+      "value": true
+    },
+    {
+      "id": "hideWhenPaused",
+      "title": "Hide When Paused",
+      "icon": "fas fa-pause",
+      "value": true
+    },
+    {
+      "id": "titleAsPresence",
+      "title": "Show Title as Presence",
+      "icon": "fad fa-user-edit",
+      "value": true
+    }
+  ]
+}
